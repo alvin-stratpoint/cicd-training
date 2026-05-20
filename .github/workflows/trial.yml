@@ -9,7 +9,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     - run: echo ${{vars.STANDARD_USER}}
-    - run: echo ${{vars.S_S}}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
